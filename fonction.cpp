@@ -27,3 +27,17 @@ float fonct::abs(float a)
     else
       return -a ;
 }
+float fonct::high(float a, float b)
+{
+    if (a > b)
+      return a;
+    else
+      return b;
+}
+float fonct::low(float a, float b)
+{
+    if (a < b)
+      return a;
+    else
+      return b;
+}

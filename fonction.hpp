@@ -10,6 +10,8 @@ public:
     float mul(float a, float b );
     float div(float a, float b );
     float abs(float a);
+    float high(float a, float b);
+    float low(float a, float b);
 private:
     /* data */
 };

@@ -10,5 +10,7 @@ int main()
   std::cout <<"multiplication : "<<F1.mul(4,6)<<std::endl;
   std::cout <<"division : "<<F1.div(4,6)<<std::endl;
   std::cout <<"valeur absolue : "<<F1.abs(-6)<<std::endl;
+  std::cout <<"grand : "<<F1.high(4,6)<<std::endl;
+  std::cout <<"petit : "<<F1.low(4,6)<<std::endl;
   return 0;
 }
